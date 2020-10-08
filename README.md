@@ -1,1 +1,5 @@
 # acanthocephalan_egg_shape_evo
+
+Abstract
+
+Egg morphology varies among and within groups of parasites. This variation has been tied to transmission strategies dependent on the host type and host habitat. However, the evolution of egg morphology in response to these factors (i.e. host type or habitat) has not been explored. Here we reconstructed a phylogeny of 64 acanthocephalans and used phylogenetic comparative methods to determine whether acanthocephalan egg shape is phylogenetically constrained and whether the variation in egg shape is a response to differences in habitat use among the intermediate host, definitive host, or a combination of the two. We found that egg shape evolution is phylogenetically constrained in response to the intermediate host’s habitat. These results are consistent with predictions that parasite egg morphology facilitates transmission through mechanisms of dispersal and persistence. These results provide an evolutionary link between egg morphology and transmission in parasites
