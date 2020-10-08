@@ -1,20 +1,36 @@
 Species,Binomial_name,Egg_length_min_um,Egg_length_max_um,Egg_length_avg_um,Egg_width_min_um,Egg_width_max_um,Egg_width_avg_um,Elongation_ratio,Egg_Description,membrane,Polar Prolongation?,Fibrils?,Int_habitat_terr?,Int_hist,Def_habitat_terr?,Def_host,Class,Order,Family
-A. propinquus,Acanthocephaloides propinquus,50,65,57.5,12.5,17.5,15,3.83,-,,0,0,0,crustacean,0,fish,Palaeacanthocephala,Echinorhynchida ,Arthythmacanthidae
+C. conspectus,Centrorhynchus conspectus,60,78,69,21,26,23.5,2.94,,,0,0,0,"? Paratenic hosts = water snake, water frog, and salamanders…",2,bird,Palaeacanthocephala,Polymorphida,Centrorhynchidae
+C. milvus,Centrorhynchus milvus,,,50,,,20,2.5,,,0,0,1,? Shrews and mice are paratenic hosts,2,bird,Palaeacanthocephala,Polymorphida,Centrorhynchidae
+C. australe,Corynosoma australe,92,115,103.5,27,42,34.5,3,-,,0,0,0,amphipod,1,mammal- seal,Palaeacanthocephala,Polymorphida,Polymorphidae
+E. truttae,Echinorhynchus truttae,110,140,125,23,27,25,5,-,3,0,0.5,0,amphipod,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
+L. thecatus,Leptorhynchoides thecatus,65,110,87.5,15,30,22.5,3.888888889,"blunt end, spindle shaped",,0,0,0,amphipod,0,fish,Palaeacanthocephala,Echinorhynchida ,Rhadinorhynchidae
+P. obtusus,Polymorphus obtusus,60,80,70,20,24,22,3.181818182,-,,0,0,0,amphipod,1,waterfowl,Palaeacanthocephala,Polymorphida,Polymorphidae
 A. anguillae,Acanthocephalus anguillae,,,68,,,9.7,7.01,,,0,0,0,aq_isopod,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
 A. dirus,Acanthocephalus dirus,90,108,99,12,15,13.5,7.33,-,4,0,0,0,aq_isopod,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
 A. lucii,Acanthocephalus lucii,,,62.4,,,10.3,6.06,elongate fusiform,NA,0,1,0,aq_isopod,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
-A. gravida,Andracantha gravida,68,80,74,29,40,34.5,2.14492754,,,0,0,0,,1,fish-eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
-A. phalacrocoracis,Andracantha phalacrococoracis,88,96,92,42,50,46,2,oval,NA,0,0,0,crustacean,1,fish-eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
-A. brevis,Arhythmorhynchus brevis,76,100,88,24,30,27,3.26,-,3,0,1,0,crustacean,1,fish-eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
-A. frassoni,Arhythmorhynchus frassoni,35,39,37,,,14,2.64,,,0,0,0,crab,1,crustacean eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
-B. balaenae,Bolbosoma balaenae,,,150,,,30,5,,,0,0,0,krill,0,mammal - whale,Palaeacanthocephala,Polymorphida,Polymorphidae
+P. contortus,Polymorphus contortus,80,130,105,15,19,17,6.176470588,-,,0,0,0,aq_isopod,1,waterfowl,Palaeacanthocephala,Polymorphida,Polymorphidae
+M. hirudinaceus,Macracanthorhynchus hirudinaceus,,,98,,,53,1.849056604,-,4,0,0,1,beetles,2,mammal,Archiacanthocephala,Oligacanthorhynchida,Oligacanthorhynchidae
+M. ingens,Macracanthorhynchus ingens,80,108,94,48,65,56.5,1.663716814,-,3,0,0,1,beetles,2,mammal,Archiacanthocephala,Oligacanthorhynchida,Oligacanthorhynchidae
+M. moniliformis,Moniliformis moniliformis,60,90,75,24,38,31,2.419354839,-,4,0,0,1,beetles,2,mammal,Archiacanthocephala,Monilifromida,Moniliformidae
 B. capitatum,Bolbosoma capitatum,120,150,135,20,30,25,5.4,fusiform w/ polar prolongations,NA,1,0,0,copepod,0,mammal - whale,Palaeacanthocephala,Polymorphida,Polymorphidae
 B. nipponicum,Bolbosoma nipponicum,120,186,153,27,38,32.5,4.71,,,0,0,0,copepod,1,mammal - sea lion,Palaeacanthocephala,Polymorphida,Polymorphidae
 B. turbinella,Bolbosoma turbinella,,,150,,,29,5.17,outer membrane breaks up into separate filaments,3,0,1,0,copepod,0,mammal - whale,Palaeacanthocephala,Polymorphida,Polymorphidae
 B. vasculosum,Bolbosoma vasculosum,80,88,84,24,26,25,3.36,,,0,0,0,copepod,0,"fish, whale or dolphin",Palaeacanthocephala,Polymorphida,Polymorphidae
-C. conspectus,Centrorhynchus conspectus,60,78,69,21,26,23.5,2.94,,,0,0,0,"? Paratenic hosts = water snake, water frog, and salamanders…",2,bird,Palaeacanthocephala,Polymorphida,Centrorhynchidae
-C. milvus,Centrorhynchus milvus,,,50,,,20,2.5,,,0,0,0,? Shrews and mice are paratenic hosts,2,bird,Palaeacanthocephala,Polymorphida,Centrorhynchidae
-C. australe,Corynosoma australe,92,115,103.5,27,42,34.5,3,-,,0,0,0,amphipod,1,mammal- seal,Palaeacanthocephala,Polymorphida,Polymorphidae
+P. nagpurensis,Pallisentis nagpurensis,,,92,,,48,1.916666667,oval,4,0,0,0,copepod,0,fish,Eoacanthocephala,Gyracanthocephala,Quadrigyridae
+A. frassoni,Arhythmorhynchus frassoni,35,39,37,,,14,2.64,,,0,0,0,crab,1,crustacean eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
+P. altmani,Polymorphus altmani,,,65,,,26,2.5,-,,0,0,0,crab,2,shorebirds,Palaeacanthocephala,Polymorphida,Polymorphidae
+A. propinquus,Acanthocephaloides propinquus,50,65,57.5,12.5,17.5,15,3.83,-,,0,0,0,crustacean,0,fish,Palaeacanthocephala,Echinorhynchida ,Arthythmacanthidae
+A. phalacrocoracis,Andracantha phalacrococoracis,88,96,92,42,50,46,2,oval,NA,0,0,0,crustacean,1,fish-eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
+A. brevis,Arhythmorhynchus brevis,76,100,88,24,30,27,3.26,-,3,0,1,0,crustacean,1,fish-eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
+E. gadi,Echinorhynchus gadi,,,76,,,13,5.846153846,-,4,0,0,0,crustacean,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
+M. grandis,Mediorhynchus grandis,43,52,47.5,21,30,25.5,1.862745098,-,4,0,0,1,insects,2,bird,Archiacanthocephala,Gigantorhynchida,Gigantorhynchidae
+C. globirostris,Centrorhynchus globirostris,45,60,52,25,28,26,2,ovoid,,0,0,1,insects,2,bird (pheasant crow),Palaeacanthocephala,Polymorphida,Centrorhynchidae
+C. microcephalus,Centrorhynchus microcephalus,53,61,57,24,28,26,2.192307692,-,,0,0,1,insects,2,bird,Palaeacanthocephala,Polymorphida,Centrorhynchidae
+B. balaenae,Bolbosoma balaenae,,,150,,,30,5,,,0,0,0,euphausiids (krill),0,mammal - whale,Palaeacanthocephala,Polymorphida,Polymorphidae
+O. tortuosa,Oligacanthorhynchus tortuosa,83,110,98,38,50,44,2.2272,elliptoid,,1,0,1,millipedes,2,raccoon/opossum,Archiacanthocephala,Oligacanthorhynchida,Oligacanthorhynchidae
+P. cylindraceus,Plagiorhynchus cylindraceus,,,77.9,,,33.1,2.35347432,-,3,0,0,1,pill bugs,2,birds,Palaeacanthocephala,Polymorphida,Plagiorhynchidae
+P. (Pr.) transversus,Plagiorhynchus transversus,,,55,,,24,2.291666667,,,0,0,1,pill bugs,2,birds,Palaeacanthocephala,Polymorphida,Plagiorhynchidae
+A. gravida,Andracantha gravida,68,80,74,29,40,34.5,2.14492754,,,0,0,0,,1,fish-eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
 C. enhydri,Corynosoma enhydri,127,150,138.5,52,67,59.5,2.327731092,-,,0,0,0,,1,mammal - sea otters,Palaeacanthocephala,Polymorphida,Polymorphidae
 C. obtuscens,Corynosoma obtuscens,68,90,79,20,28,24,3.291666667,,,0,0,0,,1,mammal - seal,Palaeacanthocephala,Polymorphida,Polymorphidae
 C. semerme,Corynosoma semerme,79,101,90,16,29,22.5,4,-,,0,1,0,,1,mammal - seal,Palaeacanthocephala,Polymorphida,Polymorphidae
@@ -22,39 +38,26 @@ C. strumosum,Corynosoma strumosum,79,101,90,,,19,4.736842105,-,,0,0,0,,1,mammal 
 C. validum,Corynosoma validum,90,116,103,22,32,27,3.814814815,-,,0,0,0,,1,mammal-walrus,Palaeacanthocephala,Polymorphida,Polymorphidae
 C. villosum,Corynosoma villosum,98,140,119,24,32,28,4.25,small round expansion of membranes at each pole,,1,0,0,,1,mammal - sea lion,Palaeacanthocephala,Polymorphida,Polymorphidae
 D. truttae,Dentitruncus truttae,,,,,,,,,,,,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Illiosentidae
-E. gadi,Echinorhynchus gadi,,,76,,,13,5.846153846,-,4,0,0,0,crustacean,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
 E. salmonis,Echinorhynchus salmonis ,97,115,106,16,19,17.5,6.057142857,fusiform,3,0,0,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
-E. truttae,Echinorhynchus truttae,110,140,125,23,27,25,5,-,3,0,0.5,0,amphipod,0,fish,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
 F. bucerium,Filisoma bucerium,56,69,62.5,12,18,15,4.166666667,-,,0,0,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Cavisomidae
 F. mugilis,Floridosentis mugilis,,,30,,,15,2,fusiform,,0,0,0,,0,fish,Eoacanthocephala,Neoechinorhynchida,Neoechonorhynchidae
 K. mexicana,Koronacantha mexicana,66,72,69,11,19,15,4.6,elongate fusiform,,0,0,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Illiosentidae
-L. thecatus,Leptorhynchoides thecatus,65,110,87.5,15,30,22.5,3.888888889,"blunt end, spindle shaped",,0,0,0,amphipod,0,fish,Palaeacanthocephala,Echinorhynchida ,Rhadinorhynchidae
 N. crassus,Neoechinorhynchus crassus,,,35,,,14,2.5,,5,0,0,0,,0,fish,Eoacanthocephala,Neoechinorhynchida,Neoechonorhynchidae
 N. cylindratus,Neoechinorhynchus cylindratus,49,51,50,15,21,18,2.777777778,-,,0,0,0,,0,fish,Eoacanthocephala,Neoechinorhynchida,Neoechonorhynchidae
 N. saginatus,Neoechinorhynchus saginatus,44,46,45,16,20,18,2.5,-,,0,0,0,,0,fish,Eoacanthocephala,Neoechinorhynchida,Neoechonorhynchidae
 N. (N.) tumidus,Neoechinorhynchus tumidus,32,35,33.5,16,19,17.5,1.914285714,oval,,0,0,0,,0,fish,Eoacanthocephala,Neoechinorhynchida,Neoechonorhynchidae
 P. (P.) celatus,Pallisentis celatus,53,77,65,20,27,23.5,2.765957447,,,0,0,0,,0,"fish, occassionally frogs",Eoacanthocephala,Gyracanthocephala,Quadrigyridae
-P. nagpurensis,Pallisentis nagpurensis,,,92,,,48,1.916666667,oval,4,0,0,0,copepod,0,fish,Eoacanthocephala,Gyracanthocephala,Quadrigyridae
-P. contortus,Polymorphus contortus,80,130,105,15,19,17,6.176470588,-,,0,0,0,aq_isopod,1,waterfowl,Palaeacanthocephala,Polymorphida,Polymorphidae
 P. minutus,Polymorphus minutus,,,45,,,15,3,-,3,0,0,0,,1,waterfowl,Palaeacanthocephala,Polymorphida,Polymorphidae
-P. obtusus,Polymorphus obtusus,60,80,70,20,24,22,3.181818182,-,,0,0,0,amphipod,1,waterfowl,Palaeacanthocephala,Polymorphida,Polymorphidae
 P. trochus,Polymorphus trochus,75,84,79.5,14,20,17,4.676470588,-,3,0,0,0,,1,waterfowl,Palaeacanthocephala,Polymorphida,Polymorphidae
 P. bulbocolli,Pomphorhynchus bulbocolli,53,83,68,8,13,10.5,6.476190476,-,,0,0,0,,0,fish,Palaeacanthocephala,Polymorphida,Pomphorhynchidae
 P. laevis,Pomphorhynchus laevis,,,119,16,19,17.5,6.8,,3,0,1,0,,0,fish,Palaeacanthocephala,Polymorphida,Pomphorhynchidae
 P. tereticollis,Pomphorhynchus tereticollis,95,126,110.5,12,23,17.5,6.314285714,-,,0,0,0,,0,fish,Palaeacanthocephala,Polymorphida,Pomphorhynchidae
 P. anatrium,Pseudocorynosoma anatrium,100,112,106,20,23,21.5,4.930232558,-,,0,0,0,,1,fish-eating bird,Palaeacanthocephala,Polymorphida,Polymorphidae
 P. constrictum,Pseudocorynosoma constrictum,30,45,37.5,8,12,10,3.75,-,,0,0,0,,1,fish-eating bird,Palaeacanthocephala,Polymorphida,Polymorphidae
-R. pristis,Rhadinorhynchus pristis,,,95,,,17,5.588235294,-,4,0,0,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Rhadinorhynchidae
+R. pristis,Rhadinorhynchus pristis,,,95,,,17,5.588235294,-,4,0,0,0,euphausiids (krill),0,fish,Palaeacanthocephala,Echinorhynchida ,Rhadinorhynchidae
 S. sagittifer,Serrasentis sagittifer,100,104,102,,,32,3.1875,elongated ellipsoid,4,0,0,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Rhadinorhynchidae
 S. hispida ,Southwellina hispida,40,119,79.5,16,35,25.5,3.117647059,-,,0,0,0,,0,fish and fish eating birds,Palaeacanthocephala,Polymorphida,Polymorphidae
 T. annulospinosa,Transvena annulospinosa,62,66,64,13,19,16,4,fusiform w/ polar extensions,,1,0,0,,0,fish,Palaeacanthocephala,Echinorhynchida ,Transvenidae
-M. hirudinaceus,Macracanthorhynchus hirudinaceus,,,98,,,53,1.849056604,-,4,0,0,1,beetles,2,mammal,Archiacanthocephala,Oligacanthorhynchida,Oligacanthorhynchidae
-M. ingens,Macracanthorhynchus ingens,80,108,94,48,65,56.5,1.663716814,-,3,0,0,1,beetles,2,mammal,Archiacanthocephala,Oligacanthorhynchida,Oligacanthorhynchidae
-M. grandis,Mediorhynchus grandis,43,52,47.5,21,30,25.5,1.862745098,-,4,0,0,1,insects,2,bird,Archiacanthocephala,Gigantorhynchida,Gigantorhynchidae
-M. moniliformis,Moniliformis moniliformis,60,90,75,24,38,31,2.419354839,-,4,0,0,1,beetles,2,mammal,Archiacanthocephala,Monilifromida,Moniliformidae
-O. tortuosa,Oligacanthorhynchus tortuosa,83,110,98,38,50,44,2.2272,elliptoid,,1,0,1,millipedes,2,raccoon/opossum,Archiacanthocephala,Oligacanthorhynchida,Oligacanthorhynchidae
-P. cylindraceus,Plagiorhynchus cylindraceus,,,77.9,,,33.1,2.35347432,-,3,0,0,1,pill bugs,2,birds,Palaeacanthocephala,Polymorphida,Plagiorhynchidae
-P. (Pr.) transversus,Plagiorhynchus transversus,,,55,,,24,2.291666667,,,0,0,1,pill bugs,2,birds,Palaeacanthocephala,Polymorphida,Plagiorhynchidae
 A. incrassatus,Acanthocephaloides incrassatus,,,71,,,14,5.07,elongated,,0,0,,,,,Palaeacanthocephala,Echinorhynchida ,Arthythmacanthidae
 A. rhinoplagusiae,Acanthocephaloides rhinoplagusiae,42,63,52.5,9,12,10.5,5,,,0,0,,,,,Palaeacanthocephala,Echinorhynchida ,Arthythmacanthidae
 A. atratus,Acanthocephalus atratus,94,106,100,24,26,25,4,,,0,0,,,,,Palaeacanthocephala,Echinorhynchida ,Echinorhynchidae
@@ -98,14 +101,12 @@ C. clitorideus,Centrorhynchus clitorideus,,,50,,,23,2.17,,,0,0,,,,,Palaeacanthoc
 C. crotophagicola,Centrorhynchus crotophagicola,,,50,,,21,2.38,-,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. elongatus,Centrorhynchus elongatus,72,84,78,27,30,28.5,2.74,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. freundi,Centrorhynchus freundi,,,69,,,28,2.46,ellispoidal,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
-C. globirostris,Centrorhynchus globirostris,45,60,52,25,28,26,2,ovoid,,0,0,1,insects,2,bird (pheasant crow),Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. globocaudatus,Centrorhynchus globocaudatus,49,61,55,22,24,23,2.39,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. guira,Centrorhynchus guira,53,63,58,24,29,26.5,2.19,elongated,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. insularis,Centrorhynchus insularis,45,55,50,23,25,24,2.083333333,oval,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. intatsinis,Centrorhynchus itatsinis,60,66,63,,,23,2.739130435,oval,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. kuntzi,Centrorhynchus kuntzi,41,60,50.5,15,22,18.5,2.72972973,-,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. magnus,Centrorhynchus magnus,35,48,41.5,16,20,18,2.305555556,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
-C. microcephalus,Centrorhynchus microcephalus,53,61,57,24,28,26,2.192307692,-,,0,0,1,insects,2,bird,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. ninnii,Centrorhynchus ninnii,,,58,,,24,2.42,,,,,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. olssoni,Centrorhynchus olssoni,57,63,60,,,24,2.5,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
 C. opimus,Centrorhynchus opimus,49,53,51,,,21,2.428571429,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Centrorhynchidae
@@ -216,7 +217,6 @@ P. (Pr.) rossicus,Plagiorhynchus rossicus,44,46,45,26,28,27,1.666666667,oval,,0,
 P. (Pr.) scolopacidis,Plagiorhynchus scolopacidis,45,51,48,,,18,2.666666667,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Plagiorhynchidae
 P. caballeroi,Polyacanthorhynchus caballeroi,,,,,,,,,,,,,,,,Polyacanthocephala,Polyacanthorhynchidae,Polyacanthorhynchus
 P. actuganensis,Polymorphus actuganensis ,106.8,120.1,113.45,,,17.8,6.373595506,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Polymorphidae
-P. altmani,Polymorphus altmani,,,65,,,26,2.5,-,,0,0,0,crab,2,shorebirds,Palaeacanthocephala,Polymorphida,Polymorphidae
 ,Polymorphus arcticus,126,155,140.5,4.1,8,6.05,23.2231405,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Polymorphidae
 ,Polymorphus botulus,71,83,77,,,30,2.566666667,,,0,0,,,,,Palaeacanthocephala,Polymorphida,Polymorphidae
 P. cincli,Polymorphus cincli,107,124,115.5,21,22,21.5,5.372093023,-,,0,0,,,,,Palaeacanthocephala,Polymorphida,Polymorphidae

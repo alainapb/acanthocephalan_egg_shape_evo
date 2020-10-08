@@ -403,12 +403,12 @@ p2<-rayDISC(tree2, int_data[,c(1,2)], model="ER", node.states="marginal")
 # run the regime (0 = aquatic , 1 = terrestrial)
 OUwie(p2$phy, int_data, model="BM1") #random   == aicc = 204.49, optima = 3.61
 OUwie(p2$phy, int_data, model="OU1") #1 regime == aicc = 190.77, optima = 3.64
-OUwie(p2$phy, int_data, model="OUM") #2 regime == aicc = 190.16, optima0 = 3.99, optima1 = 1.21
-OUwie(p2$phy, int_data, model="OUMV")#2 reg +  == aicc = 177.43, optima0 = 3.99, optima1 = 1.68
+OUwie(p2$phy, int_data, model="OUM") #2 regime == aicc = 189.22, optima0 = 4.03, optima1 = 1.17
+OUwie(p2$phy, int_data, model="OUMV")#2 reg +  == aicc = 175.07, optima0 = 4.02, optima1 = 1.72
 
 
 ###Int host table ###
-int_evo<-c(204.49,190.77, 190.16, 177.43)
+int_evo<-c(204.49,190.77, 189.22, 175.07)
 names(int_evo)<-c("BM", "OU1", "OU2", "OU2+V")
 
 aic_int <- tibble(aicc=int_evo, model=names(int_evo))
@@ -420,6 +420,7 @@ int_evo_table<-aic_int %>%
   dplyr::select(c(2,1,3,6)) %>%
   arrange(desc(waicc))
 
+int_evo_table
 
 #### Testing a regime of definitive and intermediate host habitat combined ####
 com_data<-data.frame(tree2$tip.label)
