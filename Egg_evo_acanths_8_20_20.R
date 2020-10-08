@@ -16,7 +16,7 @@ library(corHMM)
 
 
 ####ALL the species ####
-all<-read.csv("~/Documents/UNL/6Spring_2020/acanth_eggs_MS/ALL_egg_data.csv")
+all<-read.csv("ALL_egg_data.csv")
 all$Binomial_name<-gsub(" ", "_", all$Binomial_name)
 #subset(all, all$Egg_length_avg_um != " " )->all
 names(all)
@@ -117,7 +117,7 @@ cor.test(Palae$Elongation_ratio, Palae$Egg_length_avg_um)
 
 
 ####Adding in the tree####
-tree<-read.nexus("~//Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_tree/alignments_8_4_20/acanth.trees")
+tree<-read.nexus("acanth.trees")
 plot(tree, cex=0.3)
 
 tip<-c("Polymorphus_diploinflatus", "Polymorphus_contortus")
@@ -218,26 +218,7 @@ shape_signal<-aic_phy_s %>%
   dplyr::select(c(2,1,3,6)) %>%
   arrange(desc(waicc))
 
-###figure illustrating phy signal ###
 
-#shape_w_l <- pmc(tree2, shape, "white", "lambda", nboot = 2000, mc.cores = 2)
-#saveRDS(shape_w_l, file="~/Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_eggs_2020/shape_w_l")
-
-shape_w_l<-readRDS("~/Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_eggs_2020/shape_w_l")
-
-
-#plot results
-
-dists3 <- data.frame(whitenoise = shape_w_l$null, lambda = shape_w_l$test)
-dists3 %>% 
-  gather(dist, value) %>%
-  ggplot(aes(value, fill = dist)) + 
-  geom_density(alpha = 0.5) + 
-  geom_vline(xintercept = shape_w_l$lr)+
-  scale_x_continuous(limits=c(0,80))+
-  scale_y_continuous(limits=c(0,1))+
-  labs(fill = " ", x= " ", y= "Density")+
-  theme_bw()
 
 ### Evolutionary Models ###
 
@@ -261,33 +242,8 @@ shape_evo<-aic_evo_s %>%
 
 
 
-####Power Analyses for Evolution Models ####
-
-##Egg shape
-
-#shape_BM_OU <- pmc(tree2, shape, "BM", "OU", nboot = 2000, mc.cores = 2)
-#saveRDS(shape_BM_OU, file="~/Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_eggs_2020/shape_BM_OU")
-
-shape_BM_OU<-readRDS("~/Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_eggs_2020/shape_BM_OU")
-
-#plot results
-
-dists <- data.frame(BM = shape_BM_OU$null, OU = shape_BM_OU$test)
-dists %>% 
-  gather(dist, value) %>%
-  ggplot(aes(value, fill = dist)) + 
-  geom_density(alpha = 0.4) + 
-  geom_vline(xintercept = shape_BM_OU$lr)+
-  labs(fill = " ", x = " ", y = "Density")+
-  theme_bw()
-
-
-
-
 #### RUNNING PGLS ####
-## Combine all data (egg length, egg shape, membrane #, polar prolongation, int habitat, def habitat) into a single data.frame
-#write.csv(dat, file="~/Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_eggs_2020/combined.csv")
-combined<-read.csv("~/Documents/UNL/6Spring_2020/acanth_eggs_MS/acanth_eggs_2020/combined.csv")
+combined<-read.csv("combined.csv")
 
 dat<-data.frame(taxa=tree2$tip.label,
                 shape=phy_data$Elongation_ratio,
@@ -306,14 +262,14 @@ print(cdat)
 
 #lambda from fitContinous
 anova(pgls(shape~ int_hab -1, cdat, lambda = .84)) # aquatic has more elongated eggs
-summary(pgls(shape~ int_hab -1, cdat, lambda = .84)) ##used for S4 table
+summary(pgls(shape~ int_hab -1, cdat, lambda = .84)) 
 
 
 #definitive host habitat only (0 = aquatic , 1 = semiaquatic , 2 = terrestial)
 
 #lambda from fitContinous
 anova(pgls(shape~ def_hab -1, cdat, lambda = .84)) # aquatic has more elongated eggs
-summary(pgls(shape~ def_hab -1, cdat, lambda = .84)) # used for S4 TABLE
+summary(pgls(shape~ def_hab -1, cdat, lambda = .84)) 
 
 
 ##Both intermediate and definitve host habitats 
@@ -452,12 +408,3 @@ comb_evo_table<-aic_comb %>%
   arrange(desc(waicc))
 
 
-
-##wAICc table
-
-#load data
-#waicc_figure <- read_csv("waicc_figure.csv")
-#colnames(waicc_figure)<-c("Regime", "Model", "Weight")
-
-#ggplot(waicc_figure)+
-#  geom_bar(mapping=aes(x= Regime, y =Weight, color= Model))
